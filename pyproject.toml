@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "textsweep"            # change if taken on PyPI, e.g. textsweep-yourname
+version = "0.1.0"
+description = "A tiny, dependency-free text cleaner for NLP preprocessing."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "GANWA Anne Laure", email = "annelaure472@gmail.com" }]
+keywords = ["nlp", "text", "preprocessing", "cleaning", "machine-learning"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Text Processing",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+#[project.urls]
+#Homepage = "https://github.com/yourname/textsweep"
